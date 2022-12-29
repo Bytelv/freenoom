@@ -20,7 +20,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: 0 15 10 ? * * 
+    - cron: 00 02 * * *  
 jobs:
   run-it:
     runs-on: ubuntu-latest
