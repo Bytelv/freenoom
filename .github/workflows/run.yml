@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - dev
   schedule:
     - cron: 00 02 * * *  
 jobs:
